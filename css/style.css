@@ -1,0 +1,223 @@
+/*global section*/
+
+*{
+	margin: 0;
+	padding: 0;
+
+}
+
+body {
+
+ font-family: 'PT Sans', sans-serif;
+	
+}
+/*jodi img pasapasi laga thaka ai css dita hoba*/
+img{
+	display: inline-block;
+	max-width: 100%
+}
+header{
+
+	width: 100%;
+	height: 50px;
+}
+.logo{
+	margin-left: 35px;
+    margin-top: 5px;
+
+}
+/*header section end*/
+/*banner section start*/
+
+.banner{
+	width: 100%;
+	float: left;
+	height:600px;
+	background: url(../img/bgg.png);
+	background-size: cover;
+
+}
+.banner-text{
+	text-align: center;
+	margin-top: 20%;
+	padding-bottom: 15px;
+	color: #fff;
+
+}
+
+.banner-text h1{
+	font-size: 50px;
+}
+.banner-text h1 strong{
+	font-size: 50px;
+
+}
+
+
+.banner-line{
+width: 340px;
+height: 3px;
+background-color: #5fc3ff;
+display: block;
+margin: 0 auto;
+
+}
+.logo-text{
+	text-align: center;
+	color: #fff;
+	padding: 20px 0;
+}
+.banner-btn button{
+	display: block;
+	margin: 0 auto;
+	border: none;
+	width: 100px;
+    height: 40px;
+}
+.banner-btn button:hover{
+	background-color: #5fc3ff;
+}
+.banner-icon{
+	text-align: center;
+	margin: 10%;
+	color: #fff;
+}
+.banner-icon:hover{
+	cursor: pointer;
+	padding-top: 5px;
+	color: #5fc3ff;
+}
+/*banner section end*/
+
+/*design section start*/
+
+.design{
+	width: 100%;
+	float: left;
+	background-color: #f6f9f9;
+	height: 200px;
+}
+.design-text{
+	text-align: center;
+	margin-top: 5%;
+
+}
+.design-para{
+	text-align: center;
+	 padding: 0 200px;
+	 margin-bottom: 5%;
+}
+/*design section end*/
+.features{
+	width: 100%;
+    float: left;
+    background-color: white;
+    height: 200px;
+    margin-top: 35px;
+    margin-bottom: 35px;;
+}
+
+.features-icon a img{
+	display: block;
+	margin: 0 auto;
+	transition: 0.5s;
+
+}
+
+.features-icon a img:hover{
+	padding-bottom: 5px;
+}
+
+
+.col-md-4 h4{
+	text-align: center;
+}
+
+.col-md-4 p{
+	text-align: center;
+	padding: 0px 50px;
+}
+.portfolio{
+	width: 100%;
+	float: left;
+}
+.port-img a img{
+	padding-bottom: 28px;
+	margin: 0 20px;
+}
+
+.stay-with-us{
+	width: 100%;
+	float: left;
+	background: url(../img/stay-with-us.png);
+	height: 500px;
+	margin-top: 5%;
+}
+
+.text h2{
+
+	text-align: center;
+	color: #fff;
+
+
+}
+
+.text p{
+	text-align: center;
+	color: #fff;
+}
+
+.contact-form form{
+	text-align: center;
+	height: 40px;
+	margin: 15px 0;
+} 
+
+.contact-form form input{
+	width: 30%;
+    height: 85%;
+    padding: 0 12px;
+    background: transparent;
+    
+    border: 1px solid#999999;
+}
+
+.contact-form textarea{
+	margin-left: 35%;
+    width: 30%;
+    padding-left: 13px;
+    background: transparent;
+    border: 1px solid#9999;
+}
+.contact-form form button{
+	height: 35px;
+    width: 80px;
+    margin-left: 23%;
+    background-color: transparent;
+    border: 1px solid#9999;
+    color: #999;
+}
+
+.contact-form form button:hover{
+	background: #5fc3ff;
+	color: #fff;
+}
+
+.checkbox{
+	margin-left: 35%;
+}
+
+.contact-form label input{
+
+}
+footer{
+
+	widows: 100%;
+	float: left;
+}
+.social-icon{
+	float: right;
+	padding: 0 3px;
+	margin-top: 20px;
+	margin-bottom: 25px;
+}
